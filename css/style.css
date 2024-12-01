@@ -14,6 +14,10 @@ h3 span {
     color: #4ea0ff;
 }
 
+thead{
+    background-color: #7fa6fb;
+    color: #ffffff;
+}
 .logo-section {
     height: 140px;
     background-color: #9cd6f4;
@@ -47,6 +51,15 @@ font-size: 13px;
     margin-top: -12px;
     font-size: 12px;
     margin-bottom: 30px;
+}
+
+.list{
+    margin: 30px -25px;
+
+}
+
+.grey-tr{
+
 }
 
 #title {
