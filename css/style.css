@@ -1,0 +1,54 @@
+body {
+margin: 0;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h3 {
+    font-weight:normal;
+}
+
+h3 span {
+    color: #4ea0ff;
+}
+
+.logo-section {
+    height: 140px;
+    background-color: #9cd6f4;
+    background-image: url("../img/pattern.png");
+    background-size: 25%;
+    background-repeat: repeat-x;
+}
+
+.logo {
+    height: 55px;
+    padding-top: 50px;
+    padding-left: 250px;
+}
+
+.under-text {
+    margin-top: -25px;
+    line-height: 0px;
+    color: #808080;
+}
+
+.under-text p {
+font-size: 13px;
+}
+
+.container-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.photo-text {
+    margin-top: -12px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+#title {
+    padding: 15px 0px;
+}
