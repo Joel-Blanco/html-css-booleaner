@@ -18,6 +18,11 @@ thead{
     background-color: #7fa6fb;
     color: #ffffff;
 }
+
+th{
+text-align: start;
+}
+
 .logo-section {
     height: 140px;
     background-color: #9cd6f4;
@@ -34,7 +39,7 @@ thead{
 
 .under-text {
     margin-top: -25px;
-    line-height: 0px;
+    line-height: 0;
     color: #808080;
 }
 
@@ -59,9 +64,24 @@ font-size: 13px;
 }
 
 .grey-tr{
-
+background-color: #dfe5f2;
 }
 
+.larger-th{
+    width:50%;
+}
 #title {
-    padding: 15px 0px;
+    padding: 15px 0;
+}
+
+#copyright{
+    margin-top: 55px;
+    height: 65px;
+    background-color: #313a6b;
+    color: #ffffff;
+}
+
+#copyright p{
+    text-align: center;
+    padding-top: 25px;
 }
