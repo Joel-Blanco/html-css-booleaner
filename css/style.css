@@ -6,7 +6,37 @@ body {
 header {
   background-color:rgb(78, 160, 255);
   background-image: url(../img/pattern.png);
+  background-attachment: fixed;
   height: 180px;
+}
+
+main {
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 450%;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+.heading {
+  margin-top:-20px;
+}
+
+.heading h2, p {
+  color: rgb(128, 128, 128);
+  font-size: 200%;
+  margin-top: -60px;
+}
+
+.subheading p {
+margin-top: -25px;
+font-size: 140%;
+}
+
+.subheading span {
+  color: rgb(54, 177, 231);
 }
 
 .logo {
@@ -14,3 +44,4 @@ header {
   margin-top:70px;
   width: 350px;
 }
+
