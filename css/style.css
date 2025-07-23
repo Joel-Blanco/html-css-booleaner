@@ -6,7 +6,6 @@ body {
 header {
   background-color:rgb(78, 160, 255);
   background-image: url(../img/pattern.png);
-  background-attachment: fixed;
   height: 180px;
 }
 
@@ -20,19 +19,23 @@ h1 {
   color: rgb(0, 0, 0);
 }
 
+/* article-heading-section */
 .heading {
   margin-top:-20px;
 }
 
-.heading h2, p {
+.subheading {
   color: rgb(128, 128, 128);
+  margin-top:-60px
+}
+
+.subheading h2 {
   font-size: 200%;
-  margin-top: -60px;
 }
 
 .subheading p {
-margin-top: -25px;
-font-size: 140%;
+  margin-top: -25px;
+  font-size: 140%;
 }
 
 .subheading span {
@@ -45,3 +48,52 @@ font-size: 140%;
   width: 350px;
 }
 
+.article-photos img {
+  height: 650px;
+}
+
+.article-photos p {
+  font-size: 135%;
+  margin-top: 3px;
+}
+/* end-article-heading-section */
+
+/* subject-section */
+.subject p, li, table { 
+  font-size: 170%;
+}
+
+.subject ul {
+margin-left: -15px;
+}
+/* end-subject-section */
+
+/* end-page-section */
+.end-page {
+  color: rgb(128, 128, 128);
+}
+
+.end-page h2 {
+    font-size: 190%;
+}
+.end-page h3 {
+    font-size: 220%;
+}
+
+.monitor {
+  background-image: url(../img/monitor.jpg);
+  background-repeat: no-repeat;
+  width:380px;
+  height: 350px;
+  background-color: aqua;
+  
+}
+
+.graph {
+  background-image: url(../img/graph.jpg);
+  background-repeat: no-repeat;
+  width:380px;
+  height: 350px;
+  background-color: aqua;
+
+}
