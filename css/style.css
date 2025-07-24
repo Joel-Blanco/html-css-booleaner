@@ -19,7 +19,7 @@ h1 {
   color: rgb(0, 0, 0);
 }
 
-/* article-heading-section */
+/* article-heading-section/// */
 .heading {
   margin-top:-20px;
 }
@@ -56,9 +56,9 @@ h1 {
   font-size: 135%;
   margin-top: 3px;
 }
-/* end-article-heading-section */
+/* ///article-heading-section */
 
-/* subject-section */
+/* subject-section/// */
 .subject p, li, table { 
   font-size: 170%;
 }
@@ -66,9 +66,9 @@ h1 {
 .subject ul {
 margin-left: -15px;
 }
-/* end-subject-section */
+/* ///subject-section */
 
-/* table-section */
+/* table-section/// */
  thead{
   background-color: rgb(32, 169, 229);
   color: rgb(255, 255, 255);
@@ -84,8 +84,9 @@ margin-left: -15px;
 .tbody-padding tr:nth-child(odd) {
 background-color: rgb(177, 229, 242);
 }
+/* ///table-section */
 
-/* end-page-section */
+/* end-page-section/// */
 .end-page {
   color: rgb(128, 128, 128);
   margin-bottom: 50px;
@@ -94,9 +95,14 @@ background-color: rgb(177, 229, 242);
 .end-page h2 {
   font-size: 190%;
 }
+
 .end-page h3 {
   font-size: 220%;
+}
 
+.padding-end-page {
+  padding: 20px;
+  margin: 10px;
 }
 
 .monitor {
@@ -116,9 +122,4 @@ background-color: rgb(177, 229, 242);
   height: 320px;
   color:  rgb(255,255,255);
 }
-
-.padding-end-page {
-  padding: 20px;
-  margin: 10px;
-}
-/* end-end-page-section */
+/* ///end-page-section */
