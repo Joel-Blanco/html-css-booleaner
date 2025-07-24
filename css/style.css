@@ -10,7 +10,7 @@ header {
 }
 
 main {
-  margin-left: 10px;
+  margin: 10px;
 }
 
 h1 {
@@ -69,9 +69,13 @@ margin-left: -15px;
 /* ///subject-section */
 
 /* table-section/// */
+table {
+  border-collapse: collapse;
+}
  thead{
   background-color: rgb(32, 169, 229);
   color: rgb(255, 255, 255);
+  text-align: left;
  }
  .th-space {
   width: 450px;
