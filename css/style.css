@@ -68,32 +68,54 @@ margin-left: -15px;
 }
 /* end-subject-section */
 
+/* table-section */
+ thead{
+  background-color: rgb(32, 169, 229);
+  color: rgb(255, 255, 255);
+ }
+ .th-space {
+  width: 450px;
+ }
+
+.tbody-padding{
+  padding: 80px;
+}
+
+.tbody-padding tr:nth-child(odd) {
+background-color: rgb(177, 229, 242);
+}
+
 /* end-page-section */
 .end-page {
   color: rgb(128, 128, 128);
 }
 
 .end-page h2 {
-    font-size: 190%;
+  font-size: 190%;
 }
 .end-page h3 {
-    font-size: 220%;
+  font-size: 220%;
 }
 
 .monitor {
   background-image: url(../img/monitor.jpg);
   background-repeat: no-repeat;
-  width:380px;
-  height: 350px;
-  background-color: aqua;
-  
+  background-size: cover;
+  width:420px;
+  height: 320px;
+  color: rgb(255, 255, 255);
 }
 
 .graph {
   background-image: url(../img/graph.jpg);
   background-repeat: no-repeat;
-  width:380px;
-  height: 350px;
-  background-color: aqua;
-
+  background-size: cover;
+  width:420px;
+  height: 320px;
+  color:  rgb(255,255,255);
 }
+
+.padding-end-page {
+  padding: 20px;
+}
+/* end-end-page-section */
